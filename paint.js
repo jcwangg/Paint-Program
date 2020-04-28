@@ -1,6 +1,5 @@
 /*
 Joyce Wang
-CS337 Homework 9: Paint
 4/5/19
 
 This program provides functionality for drawing on panel and changing the settings
