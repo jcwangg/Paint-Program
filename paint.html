@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang=en>
+<!--
+Joyce Wang
+CS337 Homework 9: Paint
+4/5/19
+
+This file creates a paint program where the user can draw with different colors,
+sizes, and styles.
+-->
+
+<head>
+  <title>Paint</title>
+  <meta charset="utf-8" />
+  <link href="paint.css" type="text/css" rel="stylesheet" />
+  <script src="paint.js" ></script>
+</head>
+
+<body>
+  <h1>CSC 337 Paint</h1>
+  <div id = "all">
+    <canvas width="700" height="500" id = "canvas"></canvas>
+    <div id = "controls">
+      <canvas width = "100" height = "100" id = "colors"></canvas>
+      <div id = "size">
+        <h2>pen size:</h2>
+        <button id = "plus" type = "button">+</button>
+        <button id = "minus" type = "button">-</button>
+        <canvas width = "50" height = "50" id = "sizeDisplay"></canvas>
+      </div>
+      <div id = "buttons">
+        <button id = "pen" type = "button">pen</button>
+        <button id = "circles" type = "button">circles</button>
+        <button id = "squares" type = "button">squares</button>
+        <button id = "lines" type = "button">lines</button>
+        <button id = "clear" type = "button">clear</button>
+      </div>
+    </div>
+  </div>
+</body>
